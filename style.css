@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    height: 5rem;
+    width: 100%;
+    background-color: #1f2044;
+    color: #e1dede;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.logo{
+    height: 4rem;
+    width: 4rem;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: auto;
+
+}
+
+
+.dark{
+    background-color: rgb(25, 24, 24);
+    color: rgb(238, 232, 232);
+}
+.light{
+    background-color: #eee9e9;
+    color: rgb(17, 16, 16);
+}
+#mode{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #8ccdd8;
+    color: #000;
+    border: 1px solid black;
+    margin-left: auto;
+   
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    margin-top: 3rem;
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+img:hover{
+    border: 3px solid rgb(8, 8, 48);
+    border-radius: 50%;
+    opacity: 70%;
+    cursor: pointer;
+}
+.choice{
+   height: 100px;
+   width: 100px;
+   background-color:#eee9e9;
+   border-radius: 50%;
+}
+.score_board{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;  
+    margin-top: 3rem;   
+    
+}
+@media (max-width:500px) {
+    .score_board{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+               
+    }
+}
+
+#user_score,#computer_score{
+    font-size: 4rem; 
+    font-weight: bold; 
+}
+
+.msg_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #c4e9e3;
+}
+
+#msg{
+    background-color: #4f0c3b;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+footer{
+    text-align: center;
+    margin-top: 4rem;
+   line-height: 1rem;
+    background-color: #1f2044;
+    color: #eee9e9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
